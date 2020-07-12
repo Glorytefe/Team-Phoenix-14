@@ -18,22 +18,22 @@ body h2 p h3 span h4 {
 .space-top img {
     position: absolute;
     top: 0px;
-    left: 30px;
-    max-width: 43%;
+    left: 10%;
+    max-width: 45%;
 }
 
 .caption-1 p{
     color: #87DFD6;
-    max-width: 40%;
+    max-width: 42%;
     font-size: 22px;
     line-height: 1.6;
-    padding-left: 80px;
-    padding-top: 60px;
+    padding-left: 13%;
+    padding-top: 6%!important;
     font-size: 25px;
 }
 
 .house-ticket {
-    padding-top: 100px;
+    padding-top: 10%;
     padding-left: 30%;
 }
 
@@ -41,14 +41,14 @@ body h2 p h3 span h4 {
     padding-top: 40px;
 }
 
-
+/* 
 .bg-transparent .navbar-brand img{
     max-width: 80%;
 }
 
 .circle img {
     max-width: 80%;
-}
+} */
 
 .sec-2{
     background-color: var(--main-bg-color);
@@ -235,26 +235,20 @@ padding-bottom: 12%;
     color: var(--main-txt-color)!important;
 }
 /* media query for mobile */
-@media only screen and (max-width: 768px){  
+@media only screen and (max-width: 823px){  
     .div2 p {
         max-width: 100%!important;
     } 
-    .circle img {
+    /* .circle img {
         margin-top: -28%;
         max-width: 10%!important;
-    }
+    } */
     .caption-1 p{
-        max-width: 100%!important;
+        max-width: 80%!important;
         padding-left: 20px!important;
         padding-top: 40px!important;
     }
-    .navbar-toggler-icon, .navbar-toggler span  {
-        color: var(--main-txt-color);
-
-    }
-    /* .navbar-toggler span {
-        color: #fff!important;
-    } */
+   
     .space-top img {
         position: absolute;
         top: 18%;
@@ -346,12 +340,10 @@ padding-bottom: 12%;
 
 }
 /* media query for tablet */
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
+@media only screen and (max-width: 1020px) and (min-width: 768px) {
 
-    .circle img {
-        margin-top: 2%;
-        max-width: 100%!important;
-    }
+    /*  */
+   
      .space-top img {
         position: absolute;
         top: 26%;

@@ -1,275 +1,301 @@
+
+ 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Envato-music Portfolio</title>
-    <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./pete/css/animate.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  </head>
+  <body>
 
-<body>
-
-    <section class="sec1 bk-image">
-        <div class="container pt-5">
-            <nav class="navbar navbar-expand-sm">
-                <a class="navbar-brand" href="#"> <img src="./img/logo.png" class="img-fluid" alt=""></a>
-                
-                <div class="ml-auto" id="collapsibleNavId">
-                    <ul class="navbar-nav  mt-2 mt-lg-0">
-    
-                        <li class="nav-item dropdown">
-                            <a class="nav-link " href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="./img/menu.png" class="img-responsive" alt=""></a>
-                            <div class="dropdown-menu " aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#mymusic">My Music</a>
-                                <a class="dropdown-item" href="#Gallery">Gallery</a>
-                                <a class="dropdown-item" href="#Upcoming">Upcoming Shows</a>
-                                <a class="dropdown-item" href="#Connect">Connect with us</a>
-                              
-                            </div>
-                        </li>
-                    </ul>
+    <header> 
         
+            <nav class="container-fluid d-flex flex-column m-0 w-100" id="section" >
+                <div class="navbar" >
+                    <a href="#" class="navbar-brand pl-2">Pete <span style="display: inline-block; width: 18px; height: 14px; background-color: aqua; margin-top: 2px;"></span></a>
+                    <div class="close pt-5 mt-5" id="close">+</div>
+                    <button class="toggle-collapse " id="button">
+                        <img src="/img/menu.png" alt="" id="img" class="img-responsive img1"> 
+                      </button></div>
+                     
+                      <div class="collapse" id="collapse">
+                            <ul class="navbar-nav mx-auto mx-lg-auto mx-md-auto mx-sm-auto" >
+                                <li class="nav-item animate__flipOutX">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="nav-item animate__flipOutX">
+                                    <a href="#">my music</a>
+                                </li>
+                                <li class="nav-item animate__flipOutX">
+                                    <a href="#">gallery</a>
+                                </li>
+                                <li class="nav-item animate__flipOutX">
+                                    <a href="#">Upcoming events</a>
+                                </li>
+          
+                                <li class="nav-item animate__flipOutX">
+                                    <a href="#">Connect with me</a>
+                                </li>
+                            </ul>
+                        </div>
                 </div>
             </nav>
            
+    </header>
+    <!-- <div class="row"> -->
+    <section class="sec1 " id="section1" > 
+       <section class="top-sec">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 m-0 p-0 cl-1 animate__flipOutX" id="box-content">    
+            <div class="box-container container " id="boxes">
+                <span class="box btl"></span>
+                <span class="box btr"></span>
+                <span class="box bbl"></span>
+                <span class="box bbr"></span>
             </div>
-            <div class="row div2">
-                <div class="col-md-12 space-top">
-                    <div class="caption-1">
-                        <div id="shift-p">
-                            <p>
-                                Hi! My name is <span>Pete</span>. I’m a <span>Musician</span> living in Berlin,
-                                Germany.
-                                I have been creating music for 7 years.
-                                I hope my music speaks to you!
-                            </p>
-                            <img src="./img/text container - desktop.png" class="img-fluid ml-2" alt="">
+                <div class="text" id="box-text">
+                    <h4>Hi, My name is <span style="color: #fff;">Pete</span>. 
+                    I’m a <span style="color: #fff;">Musician</span> 
+                    living in Berlin, Germany. 
+                    I have been creating music for 7 years. 
+                    I hope my music speaks to you!</h4>
+                </div>
+            </div>
+            
+        </div>
+            <div class="button"> 
+                <button class="btn empty"></button>
+                <button class="btn btn-concert">
+                    Get concert Date
+                </button>
+                
+            </div>
+            <div class="scroll_down">
+                <span class="scroll"></span>
+            </div>
+    </div>
+</section>
+</section>
+
+<section class="sec2">
+   <div class="w-100 m-0 p-0">
+    <div class="txt1">
+        <p>my music</p>
+    </div>
+    
+<div class="content">
+    <div class="container content1">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+              <div class="img-cont">
+                  <span class="img-yellow"></span>
+                  <img src="/img/1.png" class="img-responsive" alt="">
+                  <p class="pt-3">California Wood</p>
+                  <small>(feat. Abel Willock)</small>
+                  <div class="icons">
+                      <a href="#"><img src="/img/spotify-logo.png" alt=""></a>
+                     <a href="#"> <img src="/img/applemusic- logo.png" alt=""></a>
+                      <a href="#"><img src="/img/deezer-logo.png" alt=""></a>
+                  </div>
+              </div>
+            </div>
+              <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+              <div class="img-cont">
+                  <span class="img-green"></span>
+                  <img src="/img/2.png" class="img-responsive" alt="">
+                  <p class="pt-3">You and I</p>
+                  <small>You and I</small>
+                  <div class="icons">
+                      <a href="#"><img src="/img/spotify-logo.png" alt=""></a>
+                     <a href="#"> <img src="/img/applemusic- logo.png" alt=""></a>
+                      <a href="#"><img src="/img/deezer-logo.png" alt=""></a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+                <div class="img-cont">
+                    <span class="img-white"></span>
+                    <img src="/img/3.png" class="img-responsive" alt="">
+                    <p class="pt-3">Midnight Tapes 2</p>
+                  <small>Midnight Tapes 2</small>
+                    <div class="icons">
+                        <a href="#"><img src="/img/spotify-logo.png" alt=""></a>
+                       <a href="#"> <img src="/img/applemusic- logo.png" alt=""></a>
+                        <a href="#"><img src="/img/deezer-logo.png" alt=""></a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+                <div class="img-cont">
+                    <span class="img-yellow"></span>
+                    <img src="/img/4.png" class="img-responsive" alt="">
+                    <p class="pt-3">Midnight Tapes</p>
+                  <small>Midnight Tapes</small>
+                    <div class="icons">
+                        <a href="#"><img src="img/spotify-logo.png" alt=""></a>
+                       <a href="#"> <img src="/img/applemusic- logo.png" alt=""></a>
+                        <a href="#"><img src="/img/deezer-logo.png" alt=""></a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+                <div class="img-cont">
+                    <span class="img-green"></span>
+                    <img src="/img/5.png" class="img-responsive" alt="">
+                    <p class="pt-3">Slumdog Billionaire</p>
+                  <small>(feat. Jackie Chan)</small>
+                    <div class="icons">
+                        <a href="#"><img src="/img/spotify-logo.png" alt=""></a>
+                       <a href="#"> <img src="/img/applemusic- logo.png" alt=""></a>
+                        <a href="#"><img src="/img/deezer-logo.png" alt=""></a>
+                    </div>
+                </div>
+              </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+          <div class="img-cont">
+              <span class="img-white"></span>
+              <img src="/img/6.png" class="img-responsive" alt="">
+              <p class="pt-3">No face No Case</p>
+                  <small>Berlin Kid</small>
+              <div class="icons">
+                  <a href="#"><img src="/img/spotify-logo.png" alt=""></a>
+                 <a href="#"> <img src="/img/applemusic- logo.png" alt=""></a>
+                  <a href="#"><img src="/img/deezer-logo.png" alt=""></a>
+              </div>
+          </div>
+         </div>
+       
+         </div>
+      </div>
+      <!-- <div class="container content1">
+        <div class="row row11">
+            <div class="col-md-6 col-lg-4 col-sm-12 col-xl-4 coll1">
+              <div class="img-cont">
+                  <span class="img-yellow"></span>
+                  <img src="/pete/img/1.png" class="img-responsive" alt="">
+                  <div class="icons">
+                      <a href="#"><img src="/pete/img/spotify-logo.png" alt=""></a>
+                     <a href="#"> <img src="/pete/img/applemusic- logo.png" alt=""></a>
+                      <a href="#"><img src="/pete/img/deezer-logo.png" alt=""></a>
+                  </div>
+              </div>
+            </div>
+        <div class="col-md-6 col-lg-4 col-sm-12 col-xl-4">
+          <div class="img-cont">
+              <span class="img-yellow"></span>
+              <img src="/pete/img/1.png" class="img-responsive" alt="">
+              <div class="icons">
+                  <a href="#"><img src="/pete/img/spotify-logo.png" alt=""></a>
+                 <a href="#"> <img src="/pete/img/applemusic- logo.png" alt=""></a>
+                  <a href="#"><img src="/pete/img/deezer-logo.png" alt=""></a>
+              </div>
+          </div>
+         </div>
+         
+         </div>
+      </div> -->
+</div>
+</section>
+<section class="sec3">
+    <div class="txt1">
+        <p>gallery</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 cola">
+            <!-- <div class="container"> -->
+                <div class="content-sec3">
+                    <img src="/img/8.png" class="img-responsive imgb" alt="">
+                    <h4>Viva la barcelona</h4>
+                    <p>2019</p>
+                    <h3 class="c-h3"></h3>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 ">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 cola">
+                        <div class="content-sec3">
+                        <video controls poster="/img/7.png" class="imgb">
+                        <source src="movie.mp4" type="mp4/video">
+                            <source src="movie.ogg" type="ogg/video">
+                        </video>
+                            <h4>Viva la barcelona</h4>
+                    <p>2019</p>
+                    <h3 class="c-h3"></h3>
                         </div>
                     </div>
-                    <div class="house-ticket">
-                        <button class="btn btn-empty">Get Concert Date</button>
-                        <button class="btn-ticket" style="position:relative; z-index:10;">Get Concert Date</button>
+                    <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 cola">
+                        <div class="content-sec3">
+                            <img src="/img/9.png" class="img-responsive imgb" alt="">
+                            <h4>Viva la barcelona</h4>
+                    <p>2019</p>
+                    <h3 class="c-h3"></h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
 
-    </section>
-
-    <section class="sec-2 serv-xc">
-        <div class="container" id="mymusic">
-            <div class="col-md-12 block-4 text-right">
-                <h2 class="mb-5">my music</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="./img/1.png" alt="" class="img-responsive">
-                    <div class="feature-section-inner">
-                        <h4>California Wood</h4>
-                        <small>(feat. Abel Willock)</small>
-                        <div class="img-sect">
-                            <img src="./img/Vector.png" class="img-fluid" alt="">
-                            <img src="./img/apple music logo 1.png" class="img-fluid" alt="">
-                            <img src="./img/Deezer_logo 1.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <img src="./img/2.png" alt="" class="img-responsive">
-                    <div class="feature-section-inner">
-                        <h4>You and I</h4>
-                        <small>You and I</small>
-                        <div class="img-sect">
-                            <img src="./img/Vector.png" class="img-fluid" alt="">
-                            <img src="./img/apple music logo 1.png" class="img-fluid" alt="">
-                            <img src="./img/Deezer_logo 1.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <img src="./img/3.png" alt="" class="img-responsive">
-                    <div class="feature-section-inner">
-                        <h4>Midnight Tapes 2</h4>
-                        <small>Midnight Tapes 2</small>
-                        <div class="img-sect">
-                            <img src="./img/Vector.png" class="img-fluid" alt="">
-                            <img src="./img/apple music logo 1.png" class="img-fluid" alt="">
-                            <img src="./img/Deezer_logo 1.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="">
-                <div class="row py-5">
-                    <div class="col-md-4">
-                        <img src="./img/4.png" alt="" class="img-responsive">
-                        <div class="feature-section-inner">
-                            <h4>Midnight Tapes</h4>
-                            <small class="small">Midnight Tapes</small>
-                            <div class="img-sect">
-                                <img src="./img/Vector.png" class="img-fluid" alt="">
-                                <img src="./img/apple music logo 1.png" class="img-fluid" alt="">
-                                <img src="./img/Deezer_logo 1.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./img/5.png" alt="" class="img-responsive">
-                        <div class="feature-section-inner">
-                            <h4>Slumdog Billionaire</h4>
-                            <small>(feat. Jackie Chan)</small>
-                            <div class="img-sect">
-                                <img src="./img/Vector.png" class="img-fluid" alt="">
-                                <img src="./img/apple music logo 1.png" class="img-fluid" alt="">
-                                <img src="./img/Deezer_logo 1.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./img/6.png" alt="" class="img-responsive">
-                        <div class="feature-section-inner">
-                            <h4>No face No Case</h4>
-                            <small>Berlin Kid</small>
-                            <div class="img-sect">
-                                <img src="./img/Vector.png" class="img-fluid" alt="">
-                                <img src="./img/apple music logo 1.png" class="img-fluid" alt="">
-                                <img src="./img/Deezer_logo 1.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-    </section>
-
-    <!--  Third block starts here -->
-    <section class="sec3 sec-2">
-        <div class="container" id="Gallery">
-            <div class="col-md-12 block-4 text-right">
-                <h2 class="mb-5">gallery</h2>
-            </div>
-            <div class="row">
-
-                <div class="col-md-5 col-sm-6 bloc-3">
-                    <img src="./img/8.png" class="img-fluid" alt="">
-                    <div class="inner-text-one inner-text">
-                        <h2>Viva la barcelona</h2>
-                        <p>2019</p>
-                        <h3></h3>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-6 col-sm-6 side-image">
-                    <div class="row mb-5">
-                        <div class="col-md-12 col-sm-12">
-                            <img src="./img/7.png" class="img-fluid" alt="">
-                            <div class="inner-text">
-                                <h2>Manchester Fiesta</h2>
-                                <p>2019</p>
-                                <h3></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <img src="./img/9.png" class="img-fluid" alt="">
-                            <div class="inner-text">
-                                <h2>Lagos, Portugal</h2>
-                                <p>2020</p>
-                                <h3></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section class="sec4">
+    <div class="txt1">
+        <p>upcoming show</p>
+    </div>
+    <div class="content-sec4">
+        <div class="img-carrier">
+            <img src="/img/10.png" class="img-responsive imgaa" alt="">
         </div>
-    </section>
-    <!-- Third block end here -->
-
-    <!-- Fourth block starts here -->
-    <section class="sec3 sec-2">
-        <div class="container" id="Upcoming">
-            <div class="row">
-                <div class="col-md-12 block-4 text-right">
-                    <h2>upcoming shows</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 big-frame-event">
-                    <img src="./img/10.png" class="img-fluid desktop" alt="">
-                    <div class="md-image text-center">
-                        <img src="./img/102.png" class="img-fluid ul-media" alt="">
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="inner-text-one">
-                                <h2>Coachella Paris</h2>
-                                <p>December 2020</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 cv-0 house-ticket-one">
-                            <button class="btn btn-empty">Buy Ticket</button>
-                            <button class="btn-ticket" style="position:relative; z-index:10;">Buy Ticket</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+       <div class="content-align">
+        <h4>Coachella Paris
+            <p>December, 2020</p>
+        </h4>
+       
+        <div class="buttons  btn1">
+            <button class="btn empty1"></button>
+            <button class="btn btn-con">
+                Buy Tickets
+            </button>
         </div>
-    </section>
-    <!-- Fourth block ends here -->
+       </div>
+       
+       
+    </div>
+</section>
+<section class="sec5">
+    <div class="txt1">
+        <p>Connect with me</p>
+    </div>
+   <div class="text-media">
+    <div class="media1">
+        <a href="#"><img src="/img/spotify-logo.png" alt=""></a>
+       <a href="#"><img src="/img/deezer-logo.png" alt=""></a>
+        <a href="#"><img src="/img/applemusic- logo.png" alt=""></a>
+        <a href="#"><img src="/img/youtube-logo.png" alt=""></a>
+        <a href="#"><img src="/img/twitter-logo.png" alt=""></a>
+        <a href="#"><img src="/img/instagram-logo.png" alt=""></a>
+       
+    </div>
+   </div>
+<div class="last">
+    <p>&copy; Pete 2020 All RIghts Reserved</p>
+</div>
+</section>
 
-    <!-- Footer section -->
-    <section class="sec3 sec-2">
-        <div class="container" id="Connect">
-            <div class="col-md-12 foot block-4 text-right">
-                <h2>connect with me</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-12 footer text-center">
-                    <ul class="ul-social-media-icons">
-                        <li>
-                            <img src="./img/spotify-logo.png" class="img-fluid" alt="">
-                        </li>
-                        <li>
-                            <img src="./img/deezer-logo.png" class="img-fluid" alt="">
-                        </li>
-                        <li>
-                            <img src="./img/applemusic- logo.png" class="img-fluid" alt="">
-                        </li>
-                        <li>
-                            <img src="./img/youtube-logo.png" class="img-fluid" alt="">
-                        </li>
-                        <li>
-                            <img src="./img/twitter-logo.png" class="img-fluid" alt="">
-                        </li>
-                        <li>
-                            <img src="./img/instagram-logo.png" class="img-fluid" alt="">
-                        </li>
-                    </ul>
-                </div>
+<script>
 
-            </div>
-            <div class="row">
-                <div class="col-md-12 right-reserved">
-                    <h2>&copy; Pete 2020 All Right Reserved</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Footer section ends here -->
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</body>
-
+    
+</script>
+<script src="/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

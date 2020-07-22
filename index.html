@@ -7,43 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <!-- <link rel="stylesheet" href="./pete/css/animate.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <link rel="stylesheet" href="/css/animate.css">
+  <link rel="icon" href="/img/icon.png">
+  <title>Pete</title>
   </head>
   <body>
 
     <header> 
         
-            <nav class="container-fluid d-flex flex-column m-0 w-100" id="section" >
+            <nav class="container-fluid d-flex flex-column m-0 w-100 " id="section" >
                 <div class="navbar" >
                     <a href="#" class="navbar-brand pl-2">Pete <span style="display: inline-block; width: 18px; height: 14px; background-color: aqua; margin-top: 2px;"></span></a>
-                    <div class="close pt-5 mt-5" id="close">+</div>
+                    <div class="close" id="close">+</div>
                     <button class="toggle-collapse " id="button">
                         <img src="/img/menu.png" alt="" id="img" class="img-responsive img1"> 
                       </button></div>
                      
                       <div class="collapse" id="collapse">
-                            <ul class="navbar-nav mx-auto mx-lg-auto mx-md-auto mx-sm-auto" >
-                                <li class="nav-item animate__flipOutX">
-                                    <a href="#">Home</a>
+                            <ul class="navbar-nav mx-auto mx-lg-auto mx-md-auto mx-sm-auto" id="collapse1">
+                                <li class="nav-item wow bounceInDown" data-wow-delay="">
+                                    <a href="#home">Home</a>
                                 </li>
-                                <li class="nav-item animate__flipOutX">
-                                    <a href="#">my music</a>
+                                <li class="nav-item wow bounceInDown" data-wow-delay="">
+                                    <a href="#mymusic">my music</a>
                                 </li>
-                                <li class="nav-item animate__flipOutX">
-                                    <a href="#">gallery</a>
+                                <li class="nav-item wow bounceInDown" data-wow-delay="">
+                                    <a href="#gallery">gallery</a>
                                 </li>
-                                <li class="nav-item animate__flipOutX">
-                                    <a href="#">Upcoming events</a>
+                                <li class="nav-item wow bounceInDown" data-wow-delay="">
+                                    <a href="#upcoming">Upcoming events</a>
                                 </li>
           
-                                <li class="nav-item animate__flipOutX">
-                                    <a href="#">Connect with me</a>
+                                <li class="nav-item wow bounceInDown" data-wow-delay="">
+                                    <a href="#connect">Connect with me</a>
                                 </li>
                             </ul>
                         </div>
@@ -53,8 +55,8 @@
     </header>
     <!-- <div class="row"> -->
     <section class="sec1 " id="section1" > 
-       <section class="top-sec">
-        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 m-0 p-0 cl-1 animate__flipOutX" id="box-content">    
+       <section class="top-sec" id="home">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 m-0 p-0 cl-1 wow bounceInLeft" id="box-content">    
             <div class="box-container container " id="boxes">
                 <span class="box btl"></span>
                 <span class="box btr"></span>
@@ -71,7 +73,7 @@
             </div>
             
         </div>
-            <div class="button"> 
+            <div class="button wow bounce"> 
                 <button class="btn empty"></button>
                 <button class="btn btn-concert">
                     Get concert Date
@@ -85,7 +87,7 @@
 </section>
 </section>
 
-<section class="sec2">
+<section class="sec2" id="mymusic">
    <div class="w-100 m-0 p-0">
     <div class="txt1">
         <p>my music</p>
@@ -94,7 +96,7 @@
 <div class="content">
     <div class="container content1">
         <div class="row">
-            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4 wow bounceInUp" data-wow-delay=".30s">
               <div class="img-cont">
                   <span class="img-yellow"></span>
                   <img src="/img/1.png" class="img-responsive" alt="">
@@ -107,7 +109,7 @@
                   </div>
               </div>
             </div>
-              <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+              <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4 wow bounceInUp" data-wow-delay="1s">
               <div class="img-cont">
                   <span class="img-green"></span>
                   <img src="/img/2.png" class="img-responsive" alt="">
@@ -120,7 +122,7 @@
                   </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4 wow bounceInUp" data-wow-delay="1.30s">
                 <div class="img-cont">
                     <span class="img-white"></span>
                     <img src="/img/3.png" class="img-responsive" alt="">
@@ -133,7 +135,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+              <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4 wow bounceInDown" data-wow-delay="1.50s">
                 <div class="img-cont">
                     <span class="img-yellow"></span>
                     <img src="/img/4.png" class="img-responsive" alt="">
@@ -146,7 +148,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+              <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4 wow bounceInDown" data-wow-delay="2.10s">
                 <div class="img-cont">
                     <span class="img-green"></span>
                     <img src="/img/5.png" class="img-responsive" alt="">
@@ -159,7 +161,7 @@
                     </div>
                 </div>
               </div>
-        <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4">
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xl-4 wow bounceInDown" data-wow-delay="2.30s">
           <div class="img-cont">
               <span class="img-white"></span>
               <img src="/img/6.png" class="img-responsive" alt="">
@@ -204,7 +206,7 @@
       </div> -->
 </div>
 </section>
-<section class="sec3">
+<section class="sec3" id="gallery">
     <div class="txt1">
         <p>gallery</p>
     </div>
@@ -212,7 +214,7 @@
         <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 cola">
             <!-- <div class="container"> -->
                 <div class="content-sec3">
-                    <img src="/img/8.png" class="img-responsive imgb" alt="">
+                    <img src="/img/8.png" class="img-responsive imgb wow flipInY" alt="">
                     <h4>Viva la barcelona</h4>
                     <p>2019</p>
                     <h3 class="c-h3"></h3>
@@ -222,7 +224,7 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 cola">
                         <div class="content-sec3">
-                        <video controls poster="/img/7.png" class="imgb">
+                        <video controls poster="/img/7.png " data-wow-delay =".30s" class="imgb wow flipInX">
                         <source src="movie.mp4" type="mp4/video">
                             <source src="movie.ogg" type="ogg/video">
                         </video>
@@ -233,7 +235,7 @@
                     </div>
                     <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 cola">
                         <div class="content-sec3">
-                            <img src="/img/9.png" class="img-responsive imgb" alt="">
+                            <img src="/img/9.png" class="img-responsive imgb wow flipInY" data-wow-delay="1s" alt="">
                             <h4>Viva la barcelona</h4>
                     <p>2019</p>
                     <h3 class="c-h3"></h3>
@@ -245,13 +247,13 @@
     </div>
 </section>
 
-<section class="sec4">
+<section class="sec4" id="upcoming">
     <div class="txt1">
         <p>upcoming show</p>
     </div>
     <div class="content-sec4">
         <div class="img-carrier">
-            <img src="/img/10.png" class="img-responsive imgaa" alt="">
+            <img src="/img/10.png" class="img-responsive imgaa wow bounceInRight" data-wow-delay=".30s" alt="">
         </div>
        <div class="content-align">
         <h4>Coachella Paris
@@ -269,33 +271,34 @@
        
     </div>
 </section>
-<section class="sec5">
+<section class="sec5" id="connect">
     <div class="txt1">
         <p>Connect with me</p>
     </div>
    <div class="text-media">
     <div class="media1">
-        <a href="#"><img src="/img/spotify-logo.png" alt=""></a>
-       <a href="#"><img src="/img/deezer-logo.png" alt=""></a>
-        <a href="#"><img src="/img/applemusic- logo.png" alt=""></a>
-        <a href="#"><img src="/img/youtube-logo.png" alt=""></a>
-        <a href="#"><img src="/img/twitter-logo.png" alt=""></a>
-        <a href="#"><img src="/img/instagram-logo.png" alt=""></a>
+        <a href="#" class="wow bounceInDown"><img src="/img/spotify-logo.png" alt=""></a>
+       <a href="#" class="wow bounceInDown" data-wow-delay=".30s"><img src="/img/deezer-logo.png" alt=""></a>
+        <a href="#" class="wow bounceInDown" data-wow-delay=".50s"><img src="/img/applemusic- logo.png" alt=""></a>
+        <a href="#" class="wow bounceInDown" data-wow-delay="1s"><img src="/img/youtube-logo.png" alt=""></a>
+        <a href="#" class="wow bounceInDown" data-wow-delay="1.10s"><img src="/img/twitter-logo.png" alt=""></a>
+        <a href="#" class="wow bounceInDown" data-wow-delay="1.30s"><img src="/img/instagram-logo.png" alt=""></a>
        
     </div>
    </div>
-<div class="last">
+<div class="last wow fadeIn" data-wow-delay="1s">
     <p>&copy; Pete 2020 All RIghts Reserved</p>
 </div>
 </section>
 
-<script>
 
-    
-</script>
 <script src="/js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <script src="/js/wow.js"></script>
+ <script src="/js/jquery.js"></script>
+ <script src="/js/popper.js"></script>
+ <script src="/js/bootstrap.js"></script>
+ <script>
+        new WOW().init();
+ </script>
   </body>
 </html>
